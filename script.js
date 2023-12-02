@@ -32,3 +32,21 @@ if (number == 25) {
 } else {
 	console.log('ничего не верно');
 };
+
+// Операторы и инкремент и декремент
+
+// num1++;
+// num1--;
+// ++num1;
+// --num1;
+let num1 = 7,
+	num2 = 5;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 / num2);
+console.log(num1 * num2);
+console.log(num1 % num2);
+--num1;
+++num2;
+console.log(num1);
+console.log(num2);
