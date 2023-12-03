@@ -46,7 +46,30 @@ console.log(num1 - num2);
 console.log(num1 / num2);
 console.log(num1 * num2);
 console.log(num1 % num2);
+
 --num1;
 ++num2;
 console.log(num1);
 console.log(num2);
+
+
+
+// логические операторы
+const hamburger = 3,
+	fries = 2;
+
+console.log(hamburger >= 3 && fries >= 1);
+
+if (hamburger >= 3 && fries >= 1) {
+	console.log('Я сыт');
+} else {
+	console.log('Я не сыт');
+}
+
+
+let age = 1;
+if (!(age >= 14 && age <= 90)) {
+	console.log('yes');
+} else {
+	console.log('not');
+}
